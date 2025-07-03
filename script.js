@@ -105,6 +105,6 @@ function mostrarMensagemSucesso(msg) {
         div.classList.remove('mostrar');
         div.textContent = '';
         document.getElementById('formCadastro').reset();
-    }, 15000);
+    }, 3000);
 }
 
